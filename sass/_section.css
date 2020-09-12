@@ -1,0 +1,27 @@
+section {
+  background-color: $primaryColor;
+  color: $secondaryColor;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 25rem;
+  &:nth-of-type (odd){
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  &:first-of-type{
+    background-image: url("https://picsum.photos/id/684/600/400?random=1");
+  }
+  &:first-of-type(3){
+    background-image: url("https://picsum.photos/id/684/600/400?random=2");
+  }
+  &:first-of-type(5){
+    background-image: url("https://picsum.photos/id/684/600/400?random=3");
+  }
+  &:first-of-type(7){
+    background-image: url("https://picsum.photos/id/684/600/400?random=4");
+  }
+
+}
